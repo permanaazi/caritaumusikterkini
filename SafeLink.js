@@ -18,11 +18,18 @@ var a_to_ve="";var a_to_vf=new Array();var a_to_vg=0;a_to_ve=document.getElement
 {a_to_vh=true;}
 j++;}
 if(a_to_vh==false)
-{var encryptedUrl=Base64.encode(a_to_vi);a_to_ve[i].href="https://caritau-safelink.blogspot.com/2017/08/how-to-make-chicken-teriyaki.html="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
+{var encryptedUrl=Base64.encode(a_to_vi);
+var x=Math.floor((Math.random()*5) +1);
+var xxx=null;
+if (x == "1") { xxx = "08/how-to-make-chicken-teriyaki.html" }
+if (x == "2") { xxx = "08/how-to-get-money-from-internet-provided.html" }
+if (x == "3") { xxx = "08/perform-10-tips-healthy-lifestyle-this.html" }
+if (x == "4") { xxx = "08/12-ways-to-organize-home-finance-with.html" }
+if (x == "5") { xxx = "08/10-tips-to-take-care-of-tough-and.html" }
+a_to_ve[i].href="http://www.ctsafelink.com/2017/"+xxx+"?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
 var a_to_vj=document.getElementById("anonyminized");var a_to_vk=document.getElementById("found_links");if(a_to_vj)
 {a_to_vj.innerHTML+=a_to_vb;}
 if(a_to_vk)
 {a_to_vk.innerHTML+=a_to_va;}}
 function a_to_fa()
 {var a_to_vf=new Array();protected_links=protected_links.replace(" ","");a_to_vf=protected_links.split(",");return a_to_vf;}
-
